@@ -1,0 +1,8 @@
+Python 
+SK-learn
+Numpy
+Pandas
+Matplotlib
+Statistics & Machine learning
+Java 
+Data Structures & Algorithms

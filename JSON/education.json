@@ -1,0 +1,72 @@
+{
+  "events": [
+      {
+          "start_date": {
+              "year": "2007",
+              "month": "6"
+          },
+        "end_date": {
+            "year": "2018",
+            "month": "3"
+        },
+          "media": {
+              "url": "https://staticimg.amarujala.com/assets/images/results.amarujala.com/2019/10/16/msbshse-maharshtra-board_1571216864.jpeg",
+              "credit": "School"
+          },
+          "text": {
+              "headline": "Navjeevan Vidyalay High School",
+              "text": "<p>Maharashtra State Board<p><p>Aggregate: 83.8 %</p>"
+          }
+      },
+      {
+        "start_date": {
+            "year": "2018",
+            "month": "8"
+        },
+        "end_date": {
+            "year": "2020",
+            "month": "2"
+        },
+        "media": {
+            "url": "https://svischool.com/wp-content/uploads/2023/10/logo-1.png",
+            "caption":"High School"
+        },
+        "text": {
+            "headline": "SVIS & Junior College",
+            "text": "<p>Maharashtra State Board<p><p>General Science</p><p>Aggregate: 76.3 %</p>"
+        }
+     },
+      {
+          "start_date": {
+              "year": "2021",
+              "month": "2"
+          },
+          "media": {
+              "url": "https://fragnel.edu.in/images/crce/logos/crcelogo.jpg",
+              "caption": "Bachelors Degree"
+          },
+          "text": {
+              "headline": "Fr. Conceicao Rodrigues College of Engineering",
+              "text": "<p>Electronics & Computer Science<p><p>CGPI: 8.12 (upto: 6th sem)</p>"
+          }
+      },
+      {
+        "start_date": {
+            "year": "2020",
+            "month": "3"
+        },
+        "end_date": {
+            "year": "2020",
+            "month": "11"
+        },
+        "media": {
+            "url": "https://www.examsplanner.in/media/mht-cet-exam.jpg",
+            "caption":""
+        },
+        "text": {
+            "headline": "Coaching for Competetive Exam",
+            "text": "<p>MHT-CET<p><p>Engineering</p><p>Percentile: 91.79 %</p>"
+        }
+     }
+  ]
+}

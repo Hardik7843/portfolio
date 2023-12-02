@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Intro to Machine Learning",
+        "date": "2022-08-15",
+        "provider": "Kaggle",
+        "description": "This is the first Kaggle certificate.",
+        "url": "https://www.kaggle.com/learn/certification/hardikonds/intro-to-machine-learning"
+    },
+    {
+        "name": "Intermediate Machine Learning",
+        "date": "2023-02-10",
+        "provider": "Kaggle",
+        "description": "This is the second Kaggle certificate.",
+        "url": "https://www.kaggle.com/learn/certification/hardikonds/intermediate-machine-learning"
+    },
+    {
+        "name": "Intro to Deep Learning",
+        "date": "2023-05-20",
+        "provider": "Kaggle",
+        "description": "This is the third Kaggle certificate.",
+        "url": "https://www.kaggle.com/learn/certification/hardikonds/intro-to-deep-learning"
+    },
+    {
+        "name": "Cognitive Application",
+        "date": "2022-12-01",
+        "provider": "Techanalogy",
+        "description": "This is a certificate from Techanalogy.",
+        "url": "https://certificate.givemycertificate.com/c/607d803b-cf53-483d-804b-e979ed2d0c36"
+    }
+]

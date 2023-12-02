@@ -1,0 +1,27 @@
+[
+    {
+        "path": "https://cdn-icons-png.flaticon.com/512/3536/3536505.png",
+        "url": "https://www.linkedin.com/in/prajapatihardik/",
+        "name":"Linkedin"
+    },
+    {
+        "path": "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png",
+        "url": "https://github.com/Hardik7843",
+        "name":"GitHub"
+    },
+    {
+        "path": "https://leetcode.com/static/images/LeetCode_logo_rvs.png",
+        "url": "https://leetcode.com/hardikprajapati7843/",
+        "name":"Leet Code"
+    },
+    {
+        "path": "https://www.kaggle.com/static/images/site-logo.svg",
+        "url": "https://www.kaggle.com/hardikonds",
+        "name":"Kaggle"
+    },
+    {
+        "path": "https://cdn-icons-png.flaticon.com/512/5968/5968841.png",
+        "url": "https://api.whatsapp.com/send/?phone=%2B917715891774&text&type=phone_number&app_absent=0",
+        "name":"Whatsapp"
+    }
+]
