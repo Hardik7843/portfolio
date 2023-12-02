@@ -110,7 +110,7 @@ with tab2:
                     st.write(f"**Description:** {certificate['description']}")
                     widget_count += 1
                     url = certificate['url']
-                    path = f"images\{certificate['name']}.png"
+                    path = f"images/{certificate['name']}.png"
                     if st.button("View Credentials" , key = widget_count):
                         st.markdown(f'<a href="{url}" target="_blank">Click Here if not visible</a>', unsafe_allow_html=True)
                         st.image(image = path)
@@ -153,7 +153,7 @@ with tab5:
 #     st.title("Accomplishments Worth Sharing")
 
 with st.sidebar:
-    st.image("images\linkedin.png")
+    st.image("images/linkedin.png")
     # widget_count += 1
     contact_btn_state = st.button("Wish to connect?", key = 'contact' )
     if 'contact' not in st.session_state:
