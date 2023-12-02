@@ -4,8 +4,8 @@ import streamlit.components.v1 as components
 # from streamlit_timeline import timeline
 from PIL import Image
 import json
-from streamlit.components.v1 import html
-from streamlit_modal import Modal
+# from streamlit.components.v1 import html
+# from streamlit_modal import Modal
 
 
 
