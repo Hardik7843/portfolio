@@ -16,13 +16,13 @@ import json
 # st.set_page_config(**page_config)
 
 # Reading all the text files
-about_file_path = r'text\about.txt' # My introduction
-skill_file_path = r'text\skills.txt' # Skills List
-tools_file_path = r'text\tools.txt' # Tools & Technologies 
+about_file_path = r"text/about.txt" # My introduction
+skill_file_path = r"text/skills.txt" # Skills List
+tools_file_path = r"text/tools.txt" # Tools & Technologies 
 
 # Reading JSON Files
-certificates = r'JSON\certificates.json'
-profiles = r'JSON\profiles.json'
+certificates = r'JSON/certificates.json'
+profiles = r'JSON/profiles.json'
 
 
 def show_details():
