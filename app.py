@@ -143,7 +143,8 @@ with tab5:
                 path = profile['path']
                 url = profile['url']
                 name = profile['name']
-                components.html(f"""<a href={url} target="_blank" style = "color: black; "><img alt="LinkedIn" width="40px" src={path}></a><br><p style = "color: black;">{name}</p>""" , height = 100)
+                # components.html(f"""<a href={url} target="_blank" style = "color: black; "><img alt="LinkedIn" width="40px" src={path}></a><br><p style = "color: black;">{name}</p>""" , height = 100)
+                components.html(f"""<a href={url} target="_blank" style = "color: black; "><img alt="LinkedIn" width="40px" src={path}><p style = "color: black;">{name}</p></a>""")
                 # st.info("Click on Icon to access Profile" , icon= "🔗")
                 # st.markdown(f'<a href={url} target="_blank">Access Profile</a>')
                 i += 1   
