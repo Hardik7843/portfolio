@@ -50,6 +50,7 @@ with tab1:
             <div class="card">
                 <div class="card-body">
                     <div style="text-align: justify;">
+                    <div style="text-align: justify; color: white background-color: #0E1117">
                         {text}
                     </div>
                 </div>
@@ -142,7 +143,11 @@ with tab5:
                 path = profile['path']
                 url = profile['url']
                 name = profile['name']
+
                 components.html(f"""<a href={url} target="_blank" style = "color: black; "><img alt="LinkedIn" width="40px" src={path}></a><br><p style = "color: black;">{name}</p>""" , height = 100)
+
+                components.html(f"""<a href={url} target="_blank" style = "background-color: #0E1117; "><img alt="LinkedIn" width="40px" src={path}></a><br><p style = "color: white;">{name}</p>""" , height = 100)
+
                 # st.info("Click on Icon to access Profile" , icon= "🔗")
                 # st.markdown(f'<a href={url} target="_blank">Access Profile</a>')
                 i += 1   
