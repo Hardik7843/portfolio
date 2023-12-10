@@ -7,13 +7,13 @@ import json
 # from streamlit.components.v1 import html
 # from streamlit_modal import Modal
 
-
-
-st.title("Welcom to my portfolio")
 # img = open("images/page_icon.png")
 img = Image.open("images/page_icon.png")
 page_config = {"page_title": "Hardik's portfolio", "page_icon": img , "layout":"wide"}
 st.set_page_config(**page_config)
+
+st.title("Welcom to my portfolio")
+
 
 # Reading all the text files
 about_file_path = r"text/about.txt" # My introduction
@@ -143,11 +143,7 @@ with tab5:
                 path = profile['path']
                 url = profile['url']
                 name = profile['name']
-
                 components.html(f"""<a href={url} target="_blank" style = "color: black; "><img alt="LinkedIn" width="40px" src={path}></a><br><p style = "color: black;">{name}</p>""" , height = 100)
-
-                components.html(f"""<a href={url} target="_blank" style = "background-color: #0E1117; "><img alt="LinkedIn" width="40px" src={path}></a><br><p style = "color: white;">{name}</p>""" , height = 100)
-
                 # st.info("Click on Icon to access Profile" , icon= "🔗")
                 # st.markdown(f'<a href={url} target="_blank">Access Profile</a>')
                 i += 1   
