@@ -10,10 +10,10 @@ import json
 
 
 st.title("Welcom to my portfolio")
-img = open("images/page_icon.png")
+# img = open("images/page_icon.png")
 img = Image.open("images/page_icon.png")
 page_config = {"page_title": "Hardik's portfolio", "page_icon": img , "layout":"wide"}
-st.set_page_config(**{"page_title": "Hardik's portfolio", "page_icon": img , "layout":"wide"})
+st.set_page_config(**page_config)
 
 # Reading all the text files
 about_file_path = r"text/about.txt" # My introduction
