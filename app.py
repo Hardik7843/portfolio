@@ -1,13 +1,10 @@
 import streamlit as st
 import pandas as pd
 import streamlit.components.v1 as components
-# from streamlit_timeline import timeline
 from PIL import Image
 import json
-# from streamlit.components.v1 import html
-# from streamlit_modal import Modal
+from data import *
 
-# img = open("images/page_icon.png")
 img = Image.open("images/page_icon.png")
 page_config = {"page_title": "Hardik's portfolio", "page_icon": img , "layout":"wide"}
 st.set_page_config(**page_config)
@@ -155,19 +152,17 @@ with tab5:
 #     st.title("Accomplishments Worth Sharing")
 
 with st.sidebar:
-    st.image("images/linkedin.png")
-    # widget_count += 1
+    components.html(linkedin_badge['html'] , height = 310 )
+    
     contact_btn_state = st.button("Wish to connect?", key = 'contact' )
     if 'contact' not in st.session_state:
-        # if st.session_state["contact"]:
-        #     st.session_state["contact"] = True
-        # else:
-        #     st.session_state["contact"] = False
         st.session_state['contact'] = contact_btn_state
     
     if st.session_state["contact"]:
         st.write("📧: hardikprajapati7843@gmail.com")
         st.write("📞: +91 7715891774")
+
+
 
 
 # with st.container():
